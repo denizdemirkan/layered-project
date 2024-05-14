@@ -1,0 +1,6 @@
+@LayeredProject.WebUi_HostAddress = http://localhost:5009
+
+GET {{LayeredProject.WebUi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

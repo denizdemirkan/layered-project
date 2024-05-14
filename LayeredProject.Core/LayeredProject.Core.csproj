@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LayeredProject.SharedLibrary\LayeredProject.SharedLibrary.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Configuratios\" />
+      <Folder Include="Constants\" />
+      <Folder Include="Dtos\" />
+      <Folder Include="Exceptions\" />
+      <Folder Include="Repositories\" />
+      <Folder Include="Services\" />
+      <Folder Include="UnitOfWorks\" />
+    </ItemGroup>
+
+</Project>
